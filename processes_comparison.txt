@@ -1,0 +1,7 @@
+Average WT/TAT:
+
+FCFS: 4.6 8.6
+SJF (with zero arrivals) : 3.6 6
+SJF (with non-zero arrivals): 6 10
+RR1: 7 11
+
