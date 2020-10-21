@@ -1,0 +1,2 @@
+If we reference one single page each time, hit/miss rate will be maximum: for example, 1 1 1 1 1 1 1 and so on
+If we reference non-repeating pages, for example, 1 2 3 4 5 6 7 and so on, hit/miss rate will be minimum
