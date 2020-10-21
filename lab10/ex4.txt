@@ -1,0 +1,8 @@
+Link is: file2.txt Files are:
+
+Link is: link1.txt Files are:
+file1.txt 
+
+Link is: file1.txt Files are:
+link1.txt 
+

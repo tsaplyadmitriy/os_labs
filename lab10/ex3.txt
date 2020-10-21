@@ -1,0 +1,37 @@
+chmod +x _ex3.txt
+total 8
+-rw-r--r-- 3 dmitry dmitry   0 Oct 21 12:55 _ex1_1.txt
+-rw-r--r-- 3 dmitry dmitry   0 Oct 21 12:55 _ex1_2.txt
+-rw-r--r-- 3 dmitry dmitry   0 Oct 21 12:55 _ex1.txt
+-rw-r--r-- 1 dmitry dmitry  55 Oct 21 12:58 ex1.txt
+-rw-r--r-- 1 dmitry dmitry 495 Oct 21 13:17 ex2.txt
+-rw-r--r-- 1 dmitry dmitry   0 Oct 21 13:22 _ex3.txt
+-rw-r--r-- 1 dmitry dmitry   0 Oct 21 13:22 ex3.txt
+
+chmod uo=+rwx _ex3.txt
+total 12
+-rw-r--r-- 3 dmitry dmitry   0 Oct 21 12:55 _ex1_1.txt
+-rw-r--r-- 3 dmitry dmitry   0 Oct 21 12:55 _ex1_2.txt
+-rw-r--r-- 3 dmitry dmitry   0 Oct 21 12:55 _ex1.txt
+-rw-r--r-- 1 dmitry dmitry  55 Oct 21 12:58 ex1.txt
+-rw-r--r-- 1 dmitry dmitry 495 Oct 21 13:17 ex2.txt
+-rwxr--rwx 1 dmitry dmitry   0 Oct 21 13:22 _ex3.txt
+-rw-r--r-- 1 dmitry dmitry 380 Oct 21 13:23 ex3.txt
+
+
+chmod -R g=u _ex3.txt
+total 12
+-rw-r--r-- 3 dmitry dmitry   0 Oct 21 12:55 _ex1_1.txt
+-rw-r--r-- 3 dmitry dmitry   0 Oct 21 12:55 _ex1_2.txt
+-rw-r--r-- 3 dmitry dmitry   0 Oct 21 12:55 _ex1.txt
+-rw-r--r-- 1 dmitry dmitry  55 Oct 21 12:58 ex1.txt
+-rw-r--r-- 1 dmitry dmitry 495 Oct 21 13:17 ex2.txt
+-rwxrwxrwx 1 dmitry dmitry   0 Oct 21 13:22 _ex3.txt
+-rw-r--r-- 1 dmitry dmitry 761 Oct 21 13:24 ex3.txt
+
+
+
+
+660  -  group owner is able to read and write, others do not have any permissions.
+775   - both group owner and group is able to read, write and  execute, while others can only read and execute.
+777  - everybody can write, read and execute.

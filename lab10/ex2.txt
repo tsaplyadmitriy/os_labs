@@ -1,0 +1,11 @@
+total 4
+2623505 -rw-r--r-- 3 dmitry dmitry  0 Oct 21 12:55 _ex1_1.txt
+2623505 -rw-r--r-- 3 dmitry dmitry  0 Oct 21 12:55 _ex1_2.txt
+2623505 -rw-r--r-- 3 dmitry dmitry  0 Oct 21 12:55 _ex1.txt
+2623506 -rw-r--r-- 1 dmitry dmitry 55 Oct 21 12:58 ex1.txt
+2116850 -rw-r--r-- 2 dmitry dmitry  0 Oct 21 13:04 _ex2.txt
+2623507 -rw-r--r-- 1 dmitry dmitry  0 Oct 21 13:00 ex2.txt
+../lab10/_ex2.txt
+../lab8/file.txt
+
+After the last command, output of find  .. -inum 2116850 is empty, all links are removed
