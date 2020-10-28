@@ -1,0 +1,2 @@
+First program displays "Hello" two times. This happens, because of how printf functions work. Output of this function is usually buffered and buffer is being cleared after each '\n' symbol. 
+That's why in the first program when printing second time, buffer is not yet empty and Hello is displayed for the second time. In the second program we clear buffer by printing additional '\n' at the first time, so no duplication occurs.
