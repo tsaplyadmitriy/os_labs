@@ -1,0 +1,5 @@
+Recovery: this method is convenient if it is ok to either kill the process or preempt it's resources, although it cannot be used neither in real-time systems or batch systems.
+
+Prevention is the best strategy if we know requests from processes in advance and also that these requests won't change. Then, the problem of planning is decidable. 
+
+Avoiding is good when we receive new requests of resources and we want to dynamically make such decisions that won't lead to deadlocks: for this, banker's algorithm is used. This approach is good for interactive systems.
